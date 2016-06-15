@@ -1,0 +1,11 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list > * {
+  margin: 16px;
+  width: 95%;
+  max-width: 550px;
+}

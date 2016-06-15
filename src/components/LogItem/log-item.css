@@ -1,0 +1,49 @@
+.log {
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .13);
+  padding: 24px;
+}
+
+.log h1 {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.log .stack {
+  position: relative;
+  margin: 12px -24px -24px -24px;
+  background-color: #313131;
+  padding: 24px;
+  font-size: 14px;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+.log .header {
+  margin: 8px 0px 16px;
+}
+
+.log .date {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.log--error {
+  background-color: #F44336;
+  color: #fff;
+}
+
+.log--warn {
+  background-color: #FF9800;
+  color: #212121;
+}
+
+.log--info {
+  background-color: #8BC34A;
+  color: #fff;
+}
+
+.log--debug {
+  background-color: #03A9F4;
+  color: #fff;
+}
